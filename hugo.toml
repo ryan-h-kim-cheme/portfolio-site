@@ -1,0 +1,22 @@
+baseURL = 'http://localhost:1313/'
+
+title = 'Ryan Kim'
+defaultContentLanguage = 'en'
+theme = 'PaperMod'
+
+[menu]
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 3

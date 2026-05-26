@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<article class="project">
+
+  <!-- HERO IMAGE -->
+  {{ if .Params.image }}
+  <div class="project-hero">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+  </div>
+  {{ end }}
+
+  <!-- TITLE -->
+  <header class="project-header">
+    <h1>{{ .Title }}</h1>
+    <p class="subtitle">{{ .Params.subtitle }}</p>
+  </header>
+
+  <!-- CONTENT -->
+  <section class="project-content">
+    {{ .Content }}
+  </section>
+
+  <!-- GALLERY -->
+  {{ if .Params.gallery }}
+  <section class="project-gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      {{ range .Params.gallery }}
+        <img src="{{ . }}" alt="project image">
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</article>
+
+{{ end }}
