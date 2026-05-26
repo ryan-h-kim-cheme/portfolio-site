@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HERO */
 .hero {
   height: 100vh;
@@ -41,6 +45,8 @@ body {
 
 /* SECTIONS */
 .section {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 80px 40px;
   text-align: center;
 }
@@ -48,9 +54,23 @@ body {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
   margin-top: 40px;
+}
+
+/* TABLETS */
+@media (max-width: 900px) {
+  .grid {
+     grid-template-columns: repeat(2, minmax(0,1fr)); 
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -180,4 +200,64 @@ body {
 /* prevent content hiding under navbar */
 main {
   padding-top: 80px;
+}
+
+/* ================= LIGHTBOX ================= */
+
+.lightbox {
+  display: none;
+
+  position: fixed;
+  z-index: 99999;
+
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.9);
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 0 40px rgba(0,0,0,0.5);
+}
+
+.lightbox-close {
+  position: absolute;
+
+  top: 24px;
+  right: 40px;
+
+  color: white;
+
+  font-size: 3rem;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.gallery-image {
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
 }

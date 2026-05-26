@@ -16,7 +16,7 @@
 
     <nav class="nav-right">
         <a href="/">Home</a>
-        <a href="/projects/">Projects</a>
+        <a href="/#projects">Projects</a>
         <a href="/about/">About</a>
     </nav>
     </header>
@@ -25,6 +25,22 @@
   <main>
     {{ block "main" . }}{{ end }}
   </main>
+
+
+<script>
+function openLightbox(src) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  lightbox.style.display = "flex";
+  lightboxImg.src = src;
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
 
 </body>
 </html>

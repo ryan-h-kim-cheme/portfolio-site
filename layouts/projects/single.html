@@ -24,13 +24,26 @@
   {{ if .Params.gallery }}
   <section class="project-gallery">
     <h2>Gallery</h2>
+
     <div class="gallery-grid">
       {{ range .Params.gallery }}
-        <img src="{{ . }}" alt="project image">
+      <img
+        class="gallery-image"
+        src="{{ . }}"
+        alt="project image"
+        onclick="openLightbox('{{ . }}')">
       {{ end }}
     </div>
   </section>
   {{ end }}
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img
+      id="lightbox-img"
+      class="lightbox-content">
+  </div>
 
 </article>
 

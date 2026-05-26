@@ -4,9 +4,13 @@
 <section class="hero">
   <div class="hero-inner">
     <h1>Ryan Kim</h1>
+    <h4> ChemE @ Carnegie Mellon University</h4>
     <p>Chemical Engineering | Process Design | Simulation</p>
-    <a class="button" href="/projects/">View Projects</a>
   </div>
+</section>
+
+<!-- Biography -->
+<section class="bio">
 </section>
 
 <!-- FEATURED PROJECTS -->
@@ -16,20 +20,30 @@
   <div class="grid">
     {{ $projects := where .Site.RegularPages "Section" "projects" }}
 
-    {{ range first 6 $projects }}
+    {{ range first 10 $projects }}
         <a class = "card" href = "{{ .RelPermalink }}">
-                <!-- thumbnail image -->
-                {{ if.Params.image }}
-                    <img class = "card-thumb" src = "{{ .Params.image}}" alt = "{{ .Title }}">
-                {{ end }}
+          <!-- thumbnail image -->
+          {{ if .Params.image }}
+              <img 
+                class = "card-thumb" 
+                src = "{{ .Params.image}}" 
+                alt = "{{ .Title }}">
+          {{ end }}
 
-                <h3>{{ .Title}}</h3>
-                {{ if .Params.subtitle }}
-                    <p>{{ .Params.subtitle }}</p>
-                {{ end }}
+          <h3>{{ .Title }}</h3>
+            {{ if .Params.subtitle }}
+              <p>{{ .Params.subtitle }}</p>
+            {{ end }}
         </a>
     {{ end }}
   </div>
 </section>
 
+<!-- Skills-->
+<section class="skills">
+</section>
+
+<!-- Contact / Links -->
+<section class="contact">
+</section>
 {{ end }}
