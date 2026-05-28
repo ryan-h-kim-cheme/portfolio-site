@@ -2,11 +2,42 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-inner">
+
+  <div class="hero-left">
+
+    <p class="hero-tag">
+      Chemical Engineering @ Carnegie Mellon University
+    </p>
+
     <h1>Ryan Kim</h1>
-    <h4> ChemE @ Carnegie Mellon University</h4>
-    <p>Chemical Engineering | Process Design | Simulation</p>
+
+    <p class="hero-description">
+      Process Design • Simulation • Machine Learning • Optimization
+    </p>
+
+    <div class="hero-buttons">
+
+      <a class="button" href="/#projects">
+        View Projects
+      </a>
+
+      <a class="button secondary-button" href="/about/">
+        About Me
+      </a>
+
+    </div>
+
   </div>
+
+  <div class="hero-right">
+
+    <img
+      src="/images/process-bg.gif"
+      alt="Process Engineering Graphic"
+    >
+
+  </div>
+
 </section>
 
 <!-- Biography -->
@@ -19,7 +50,7 @@
 
 <!-- FEATURED PROJECTS -->
 <section class="section" id="projects">
-  <h2>Featured Projects</h2>
+  <h2>Projects</h2>
 
   <div class="grid">
     {{ $projects := where .Site.RegularPages "Section" "projects" }}
