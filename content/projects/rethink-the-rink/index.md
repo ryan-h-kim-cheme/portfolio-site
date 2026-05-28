@@ -8,8 +8,9 @@ date: 2025-03-01
 image: "/images/projects/rethink-the-rink/hero.jpg"
 gallery:
   - "/images/projects/rethink-the-rink/img1.jpg"
-  - "/images/projects/rethink-the-rink/img2.jpg"
-  - "/images/projects/rethink-the-rink/img3.jpg"
+  - "/images/projects/rethink-the-rink/img2.JPG"
+  - "/images/projects/rethink-the-rink/img3.JPG"
+  - "/images/projects/rethink-the-rink/img4.JPG"
 
 ---
 
