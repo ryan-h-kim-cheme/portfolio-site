@@ -5,7 +5,7 @@ subtitle: "Engineering design, FEA analysis, and polymer materials prototyping f
 
 date: 2025-03-01
 
-image: "/images/projects/rethink-the-rink/hero.jpg"
+image: "/images/projects/rethink-the-rink/hero1.jpg"
 gallery:
   - "/images/projects/rethink-the-rink/img1.jpg"
   - "/images/projects/rethink-the-rink/img2.JPG"
