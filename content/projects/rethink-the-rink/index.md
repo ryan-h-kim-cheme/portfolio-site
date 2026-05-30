@@ -1,7 +1,7 @@
 ---
 title: "Rethink the Rink Make-a-thon - CMU x Covestro"
 
-subtitle: "Engineering design, FEA analysis, and polymer materials prototyping focused on improving hockey glove safety, durability, and impact protection through advanced Covestro material integration."
+subtitle: "Engineering design, Materials prototyping, Player saftey"
 
 date: 2025-03-01
 

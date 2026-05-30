@@ -1,7 +1,7 @@
 ---
 title: "Direct Carbon Capture and Regeneration - ChemE Cube"
 
-subtitle: "Carbon capture, adsorption, and regenerative materials research focused on scalable CO₂ sequestration and sustainable process design using zeolites, DOFs, and recyclable adsorption systems."
+subtitle: "Carbon capture, Regeneration, Sustainability"
 
 date: 2024-08-01
 
@@ -14,49 +14,35 @@ gallery:
 
 ## Overview
 
-Developed and proposed multiple direct carbon capture and regeneration methodologies as part of the ChemE Cube Club competition focused on sustainable carbon dioxide sequestration and recyclable adsorption systems. The project explored advanced porous materials including zeolites and Dynamic Organic Frameworks (DOFs) for selective CO₂ adsorption, regeneration efficiency, and long-term scalability in industrial carbon capture applications.
+As part of the ChemE Cube team and the current Vice President of the club, we focused on exploring different adsorption methods to capture and regenerate carbon dioxide from ambient air for the ChemE Cube Competition hosted by Exxon Mobile. The project explored materials such as zeolites and positively charged sorbents for selective CO2 adsorption, regeneration potential, and long term scalability in industrial and household carbon capture applications. 
 
-Conducted research into adsorption-desorption cycles, material regeneration pathways, thermal stability, process sustainability, and manufacturing feasibility to design a low-cost and environmentally responsible carbon capture system. Collaborated on engineering presentation development, technical communication, and product visualization for both qualifying and finalist competition rounds.
+The main research was done into manufacturing feasibility, adsorption-desorption cycles, and regeneration pathways in order to design a low cost carbon capture system that we could prototype and experiment with. The project integrated major concepts from:
+- Thermodynamics
+- Mass transfer
+- Adsorption kinetics
+- Sustainability analysis
+- Process optimization
+- Cost engineering
 
-The project integrated principles from:
-- thermodynamics
-- mass transfer
-- adsorption kinetics
-- separations engineering
-- sustainability analysis
-- process optimization
-- cost engineering
-
-to evaluate practical implementation strategies for scalable carbon capture technologies.
 
 ---
 
 ## Objectives
 
-- Investigate scalable direct carbon capture technologies for atmospheric and industrial CO₂ sequestration
-- Evaluate porous adsorption materials including zeolites and DOFs for high selectivity and regeneration capability
-- Analyze adsorption-desorption regeneration cycles to improve recyclability and operational sustainability
-- Develop low-cost carbon capture methodologies with minimized energy requirements and reduced process inefficiencies
-- Perform preliminary cost analysis and manufacturing feasibility assessments for prototype implementation
-- Optimize presentation structure, engineering communication, and technical product visualization for ChemE Cube competition judging
-- Research environmentally sustainable process design approaches for long-term carbon reduction applications
-- Explore industrial implementation potential for regenerative adsorption systems in future carbon management infrastructure
+The major objectives were as follows:
+- Investigate scalable direct carbon capture technologies for industrial and household CO2 sequestration
+- Evaluate efficacy of selected materials within competition guidelines and practical applications
+- Analyzed regeneration cycles to improve recyclability and operational sustainability
+- Performed preliminary cost analysis and manufacturing feasibility assessments for implementation
+
 
 ---
 
 ## Results
 
-- Proposed multiple carbon capture and regeneration system concepts utilizing zeolite-based and DOF-based adsorption mechanisms
-- Identified promising recyclable adsorption materials capable of repeated CO₂ capture and regeneration cycles
-- Developed structured technical presentations and engineering pitch materials for both qualifying and finalist competition stages
-- Conducted preliminary manufacturing cost estimation and budget analysis for system development and implementation feasibility
-- Improved overall project organization, technical communication, and engineering workflow coordination within the ChemE Cube team
-- Strengthened understanding of:
-  - adsorption systems
-  - regenerative separations processes
-  - sustainable engineering
-  - carbon management technologies
-  - environmental process design
-  - techno-economic analysis
+The cube was created with two main chambers, one housing the silica beads to capture moisture and enhance the efficiency of the reactor bed, and another one housing the positively charged sorbents. These sorbents are activated carbon sheets imbibed with OH- ions, allowing for both physical adsorption (through the carbon sheet pores) and chemisorption (through the reactions between CO2 and OH- ions). An Arduino Uno was used for embedded systems control and pressure monitoring, ensuring safety of the cube through various pressure sensors. 
+
+With the technology, at the 2025 ChemE Cube Competition, the Carnegie Mellon University team placed 5th out of 23 teams with 6th lowest $/ton of CO2 captured. As such, we were able to successfully identify positively charged sorbent as a feasible technology and continue to explore the sorbents for the 2026 competition. 
+
 
 ---

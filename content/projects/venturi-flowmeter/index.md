@@ -1,7 +1,7 @@
 ---
-title: "Venturri Flowmeter"
+title: "Venturri Flowmeter - Fluid Mechanics"
 
-subtitle: "Engineering design, prototyping, CAD"
+subtitle: "Data analysis, Simulations with COMSOL, 3D Modeling"
 
 date: 2026-03-01
 
